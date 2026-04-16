@@ -1,0 +1,10 @@
+a = input("enter your username:")
+b = int(input("enter your password:"))
+
+if a == "admin" and b == 1234:
+	print("access granted")
+elif a == "admin" and b != 1234:
+	print("incorrect password")
+elif a != "admin":
+	print("unknown user")
+	
