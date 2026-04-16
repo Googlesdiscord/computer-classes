@@ -1,0 +1,5 @@
+a = int(input("enter the lenght:"))
+b = int(input("enter the width:"))
+c = a*b
+
+print("the area of rectangle is", c)
