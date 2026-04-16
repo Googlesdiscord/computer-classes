@@ -1,0 +1,9 @@
+a = int(input("current time in 24hr format:"))
+if a in range(5, 12):
+	print("Good morning")
+elif a in range(12, 18):
+	print("Good afternoon")
+elif a in range(18, 21):
+	print("Good evening")
+else:
+	print("Good night")
