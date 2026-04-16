@@ -1,0 +1,11 @@
+a = float(input("Enter your income amount: "))
+
+if a < 10000:
+    b = "No tax"
+elif 10000 <= a <= 50000:
+    b = "Tax: 10%"
+elif 50000 < a <= 100000:
+    b = "Tax: 20%"
+else:
+    b = "Tax: 25%"
+print(b)
