@@ -1,6 +1,7 @@
 a = int(input("Enter number: "))
 print(type(a))
-a = str(input("Enter text: "))
+a = (input("Enter text: "))
 print(type(a))
 a = float(input("Enter a decimal number: ")) 
 print(type(a))
+# using int, str, float functions becouse the input function returns the input as string by deafult 
