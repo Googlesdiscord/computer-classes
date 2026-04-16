@@ -1,0 +1,7 @@
+a = int(input("enter temperature in temperature:"))
+if a <= 15:
+	print("cold")
+elif a > 15 and a < 30:
+	print("warm")
+elif a > 30:
+	print("hot")
